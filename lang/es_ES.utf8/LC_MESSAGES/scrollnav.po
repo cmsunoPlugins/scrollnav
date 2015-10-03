@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CmsUno\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-25 10:48+0100\n"
+"PO-Revision-Date: 2015-08-25 10:48+0100\n"
+"Last-Translator: jacques Malgrange <contacter@boiteasite.fr>\n"
+"Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Report-\tmsgstr-Bugs-To: \n"
+"Report-\t\tmsgstr-Bugs-To: \n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../scrollnav.php:18
+msgid "Add a lateral sliding menu. (JQuery Required)"
+msgstr "Añadir un menú deslizante lateral. (JQuery Obligatorio)"
+
+#: ../../../scrollnav.php:19
+msgid "The Format -Title 2- (H2 HTML tags) inside pages will be submenu."
+msgstr "El Formato -Título 2- (etiquetas HTML H2) dentro de las páginas será submenú."
+
+#: ../../../scrollnav.php:20
+msgid "Parameters :"
+msgstr "Parámetros :"
+
+#: ../../../scrollnav.php:23
+msgid "Top Start"
+msgstr "Inicio Altura"
+
+#: ../../../scrollnav.php:25
+msgid "Margin up when the page is at the top (px)."
+msgstr "Margen cuando la página está en la parte superior (px)."
+
+#: ../../../scrollnav.php:28
+msgid "Top Fixed"
+msgstr "Altura fija"
+
+#: ../../../scrollnav.php:30
+msgid "Margin up when the menu becomes fixed (px)."
+msgstr "Margen cuando el menú se convierte en fijo (px)."
+
+#: ../../../scrollnav.php:33
+msgid "Menu Title"
+msgstr "Título del menú"
+
+#: ../../../scrollnav.php:35
+msgid "If you want a title at the top of the menu, write it. Otherwise, empty it."
+msgstr "Si quieres un título en la parte superior del menú, escribirlo. De lo contrario, vaciarlo."
+
+#: ../../../scrollnav.php:38
+msgid "Speed"
+msgstr "Velocidad"
+
+#: ../../../scrollnav.php:40
+msgid "Set the animated page scroll speed (ms). Empty it for no animation."
+msgstr "Ajuste la velocidad de desplazamiento de la página (ms). Dejar en blanco para eliminar esta animación"
+
+#: ../../../scrollnav.php:43
+msgid "Top Offset"
+msgstr "Offset superior"
+
+#: ../../../scrollnav.php:45
+msgid "When click, position of the window relative to the beginning of the section (px)."
+msgstr "Cuando clic, posición de la ventana con relación al principio de la sección (px)."
+
+#: ../../../scrollnav.php:48
+msgid "Save settings"
+msgstr "Guardar ajustes"
+
+#: ../../../scrollnav.php:48
+msgid "Save"
+msgstr "Guardar"
+
+#: ../../../scrollnav.php:64
+msgid "Backup performed"
+msgstr "Copia de seguridad realizada"
+
+#: ../../../scrollnav.php:65
+msgid "Impossible backup"
+msgstr "Copia de seguridad Imposible"
+

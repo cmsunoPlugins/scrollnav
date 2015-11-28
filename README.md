@@ -21,9 +21,14 @@ u::::::::::::::u  n::::n    n::::n  o:::::ooooo:::::o
      \____/           \/    \/            \__/
 </pre>
 
-### Scrollnav ###
+## Scrollnav ##
 
 Replaces the menu with a drop down menu which scrolled with the page.
 Use [Scrollnav](http://scrollnav.com/)
 
 [CMSUno](https://github.com/boiteasite/cmsuno)
+
+### Versions ###
+
+* 1.1 - 28/11/2015 : Hide class nav1 in menu if class navOff too.
+* 1.0 - 05/10/2015 : First stable version

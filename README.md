@@ -30,5 +30,6 @@ Use [Scrollnav](http://scrollnav.com/)
 
 ### Versions ###
 
+* 1.1.1 - 12/03/2016 : Scrollnav V2.7.1.
 * 1.1 - 28/11/2015 : Hide class nav1 in menu if class navOff too.
 * 1.0 - 05/10/2015 : First stable version

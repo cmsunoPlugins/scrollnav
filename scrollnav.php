@@ -15,37 +15,37 @@ if (isset($_POST['action']))
 		case 'plugin': ?>
 		<div class="blocForm">
 			<h2>ScrollNav</h2>
-			<p><?php echo _("Add a lateral sliding menu. (JQuery Required)");?></p>
-			<p><?php echo _("The Format -Title 2- (H2 HTML tags) inside pages will be submenu.");?></p>
-			<h3><?php echo _("Parameters :");?></h3>
+			<p><?php echo T_("Add a lateral sliding menu. (JQuery Required)");?></p>
+			<p><?php echo T_("The Format -Title 2- (H2 HTML tags) inside pages will be submenu.");?></p>
+			<h3><?php echo T_("Parameters :");?></h3>
 			<table class="hForm">
 				<tr>
-					<td><label><?php echo _("Top Start");?></label></td>
+					<td><label><?php echo T_("Top Start");?></label></td>
 					<td><input type="text" class="input" name="scroTopi" id="scroTopi" style="width:50px;" /></td>
-					<td><em><?php echo _("Margin up when the page is at the top (px).");?></em></td>
+					<td><em><?php echo T_("Margin up when the page is at the top (px).");?></em></td>
 				</tr>
 				<tr>
-					<td><label><?php echo _("Top Fixed");?></label></td>
+					<td><label><?php echo T_("Top Fixed");?></label></td>
 					<td><input type="text" class="input" name="scroTopf" id="scroTopf" style="width:50px;" /></td>
-					<td><em><?php echo _("Margin up when the menu becomes fixed (px).");?></em></td>
+					<td><em><?php echo T_("Margin up when the menu becomes fixed (px).");?></em></td>
 				</tr>
 				<tr>
-					<td><label><?php echo _("Menu Title");?></label></td>
+					<td><label><?php echo T_("Menu Title");?></label></td>
 					<td><input type="text" class="input" name="scroTit" id="scroTit" style="width:100px;" /></td>
-					<td><em><?php echo _("If you want a title at the top of the menu, write it. Otherwise, empty it.");?></em></td>
+					<td><em><?php echo T_("If you want a title at the top of the menu, write it. Otherwise, empty it.");?></em></td>
 				</tr>
 				<tr>
-					<td><label><?php echo _("Speed");?></label></td>
+					<td><label><?php echo T_("Speed");?></label></td>
 					<td><input type="text" class="input" name="scroSpeed" id="scroSpeed" style="width:100px;" /></td>
-					<td><em><?php echo _("Set the animated page scroll speed (ms). Empty it for no animation.");?></em></td>
+					<td><em><?php echo T_("Set the animated page scroll speed (ms). Empty it for no animation.");?></em></td>
 				</tr>
 				<tr>
-					<td><label><?php echo _("Top Offset");?></label></td>
+					<td><label><?php echo T_("Top Offset");?></label></td>
 					<td><input type="text" class="input" name="scroOfs" id="scroOfs" style="width:50px;" /></td>
-					<td><em><?php echo _("When click, position of the window relative to the beginning of the section (px).");?></em></td>
+					<td><em><?php echo T_("When click, position of the window relative to the beginning of the section (px).");?></em></td>
 				</tr>
 			</table>
-			<div class="bouton fr" onClick="f_save_scrollnav();" title="<?php echo _("Save settings");?>"><?php echo _("Save");?></div>
+			<div class="bouton fr" onClick="f_save_scrollnav();" title="<?php echo T_("Save settings");?>"><?php echo T_("Save");?></div>
 			<div class="clear"></div>
 		</div>
 		<?php break;
@@ -61,8 +61,8 @@ if (isset($_POST['action']))
 		$a['sp'] = ($_POST['sp']?$_POST['sp']:false);
 		$a['ofs'] = ($_POST['ofs']?$_POST['ofs']:0);
 		$out = json_encode($a);
-		if (file_put_contents('../../data/'.$Ubusy.'/scrollnav.json', $out)) echo _('Backup performed');
-		else echo '!'._('Impossible backup');
+		if (file_put_contents('../../data/'.$Ubusy.'/scrollnav.json', $out)) echo T_('Backup performed');
+		else echo '!'.T_('Impossible backup');
 		break;
 		// ********************************************************************************************
 		}

@@ -2,26 +2,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CmsUno\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 10:49+0100\n"
-"PO-Revision-Date: 2015-08-25 10:49+0100\n"
-"Last-Translator: jacques Malgrange <contacter@boiteasite.fr>\n"
+"POT-Creation-Date: 2017-03-15 19:40+0100\n"
+"PO-Revision-Date: 2017-03-15 19:40+0100\n"
+"Last-Translator: malgrange <jacques.malgrange@gmail.com>\n"
 "Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
-"Language: \n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Report-\tmsgstr-Bugs-To: \n"
 "Report-\t\tmsgstr-Bugs-To: \n"
-"X-Poedit-KeywordsList: _\n"
+"X-Poedit-KeywordsList: _;T_\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-Country: FRANCE\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
-"X-Poedit-Language: French\n"
+"X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SearchPath-0: ../../..\n"
 
 #: ../../../scrollnav.php:18
 msgid "Add a lateral sliding menu. (JQuery Required)"
-msgstr "Ajout d'un menu lateral glissant avec la page. (N&eacute;c&eacute;ssite JQuery)"
+msgstr ""
+"Ajout d'un menu lateral glissant avec la page. (N&eacute;c&eacute;ssite "
+"JQuery)"
 
 #: ../../../scrollnav.php:19
 msgid "The Format -Title 2- (H2 HTML tags) inside pages will be submenu."
@@ -52,8 +53,10 @@ msgid "Menu Title"
 msgstr "Titre du menu"
 
 #: ../../../scrollnav.php:35
-msgid "If you want a title at the top of the menu, write it. Otherwise, empty it."
-msgstr "Remplir ce champ pour placer un titre au dessus du menu. Laisser vide sinon."
+msgid ""
+"If you want a title at the top of the menu, write it. Otherwise, empty it."
+msgstr ""
+"Remplir ce champ pour placer un titre au dessus du menu. Laisser vide sinon."
 
 #: ../../../scrollnav.php:38
 msgid "Speed"
@@ -61,15 +64,20 @@ msgstr "Vitesse"
 
 #: ../../../scrollnav.php:40
 msgid "Set the animated page scroll speed (ms). Empty it for no animation."
-msgstr "Vitesse de transition au clic du menu (ms). Laisser vide pour supprimer l'animation."
+msgstr ""
+"Vitesse de transition au clic du menu (ms). Laisser vide pour supprimer "
+"l'animation."
 
 #: ../../../scrollnav.php:43
 msgid "Top Offset"
 msgstr "Offset vers le haut"
 
 #: ../../../scrollnav.php:45
-msgid "When click, position of the window relative to the beginning of the section (px)."
-msgstr "Lors du clic, position de la fenêtre par rapport au début de la section (px)."
+msgid ""
+"When click, position of the window relative to the beginning of the section "
+"(px)."
+msgstr ""
+"Lors du clic, position de la fenêtre par rapport au début de la section (px)."
 
 #: ../../../scrollnav.php:48
 msgid "Save settings"
@@ -86,4 +94,3 @@ msgstr "Sauvegarde effectuée"
 #: ../../../scrollnav.php:65
 msgid "Impossible backup"
 msgstr "Sauvegarde impossible"
-

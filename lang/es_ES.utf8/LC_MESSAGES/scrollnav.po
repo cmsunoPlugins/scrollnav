@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CmsUno\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-15 19:40+0100\n"
-"PO-Revision-Date: 2017-03-15 19:40+0100\n"
+"POT-Creation-Date: 2022-08-27 19:25+0200\n"
+"PO-Revision-Date: 2022-08-27 19:27+0200\n"
 "Last-Translator: malgrange <jacques.malgrange@gmail.com>\n"
 "Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language: es_ES\n"
@@ -19,8 +19,8 @@ msgstr ""
 "X-Poedit-SearchPath-0: ../../..\n"
 
 #: ../../../scrollnav.php:18
-msgid "Add a lateral sliding menu. (JQuery Required)"
-msgstr "Añadir un menú deslizante lateral. (JQuery Obligatorio)"
+msgid "Add a lateral sliding menu."
+msgstr "Añadir un menú deslizante lateral."
 
 #: ../../../scrollnav.php:19
 msgid "The Format -Title 2- (H2 HTML tags) inside pages will be submenu."
@@ -32,47 +32,63 @@ msgid "Parameters :"
 msgstr "Parámetros :"
 
 #: ../../../scrollnav.php:23
+msgid "Scrollnav Version :"
+msgstr "Versión de Scrollnav :"
+
+#: ../../../scrollnav.php:26
+msgid "Version 2 - JQuery Required"
+msgstr "Versión 2 - JQuery Obligatorio"
+
+#: ../../../scrollnav.php:27
+msgid "Version 3 - Pure JavaScript, less options"
+msgstr "Versión 3 - JavaScript puro, menos opciones"
+
+#: ../../../scrollnav.php:30
+msgid "Version 2 is more complete"
+msgstr "La versión 2 es más completa"
+
+#: ../../../scrollnav.php:33
 msgid "Top Start"
 msgstr "Inicio Altura"
 
-#: ../../../scrollnav.php:25
+#: ../../../scrollnav.php:35
 msgid "Margin up when the page is at the top (px)."
 msgstr "Margen cuando la página está en la parte superior (px)."
 
-#: ../../../scrollnav.php:28
+#: ../../../scrollnav.php:38
 msgid "Top Fixed"
 msgstr "Altura fija"
 
-#: ../../../scrollnav.php:30
+#: ../../../scrollnav.php:40
 msgid "Margin up when the menu becomes fixed (px)."
 msgstr "Margen cuando el menú se convierte en fijo (px)."
 
-#: ../../../scrollnav.php:33
+#: ../../../scrollnav.php:43
 msgid "Menu Title"
 msgstr "Título del menú"
 
-#: ../../../scrollnav.php:35
+#: ../../../scrollnav.php:45
 msgid ""
 "If you want a title at the top of the menu, write it. Otherwise, empty it."
 msgstr ""
 "Si quieres un título en la parte superior del menú, escribirlo. De lo "
 "contrario, vaciarlo."
 
-#: ../../../scrollnav.php:38
+#: ../../../scrollnav.php:48
 msgid "Speed"
 msgstr "Velocidad"
 
-#: ../../../scrollnav.php:40
+#: ../../../scrollnav.php:50
 msgid "Set the animated page scroll speed (ms). Empty it for no animation."
 msgstr ""
 "Ajuste la velocidad de desplazamiento de la página (ms). Dejar en blanco "
 "para eliminar esta animación"
 
-#: ../../../scrollnav.php:43
+#: ../../../scrollnav.php:53
 msgid "Top Offset"
 msgstr "Offset superior"
 
-#: ../../../scrollnav.php:45
+#: ../../../scrollnav.php:55
 msgid ""
 "When click, position of the window relative to the beginning of the section "
 "(px)."
@@ -80,18 +96,18 @@ msgstr ""
 "Cuando clic, posición de la ventana con relación al principio de la sección "
 "(px)."
 
-#: ../../../scrollnav.php:48
+#: ../../../scrollnav.php:58
 msgid "Save settings"
 msgstr "Guardar ajustes"
 
-#: ../../../scrollnav.php:48
+#: ../../../scrollnav.php:58
 msgid "Save"
 msgstr "Guardar"
 
-#: ../../../scrollnav.php:64
+#: ../../../scrollnav.php:75
 msgid "Backup performed"
 msgstr "Copia de seguridad realizada"
 
-#: ../../../scrollnav.php:65
+#: ../../../scrollnav.php:76
 msgid "Impossible backup"
 msgstr "Copia de seguridad Imposible"

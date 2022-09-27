@@ -22,12 +22,12 @@ if (isset($_POST['action']))
 				<tr>
 					<td><label><?php echo T_("Scrollnav Version :");?></label></td>
 					<td>
-						<select name="scroV3" id="scroV3" onChange="f_version_scrollnav(this)">
+						<select name="scroV3" id="scroV3" style="max-width:200px" onChange="f_version_scrollnav(this)">
 							<option value="0"><?php echo T_("Version 2 - JQuery Required");?></option>
 							<option value="1"><?php echo T_("Version 3 - Pure JavaScript, less options");?></option>
 						</select>
 					</td>
-					<td><em><?php echo T_("Version 2 is more complete");?></em></td>
+					<td><em><?php echo T_("When I set the price of an item, the tax is ...");?></em></td>
 				</tr>
 				<tr class="v2">
 					<td><label><?php echo T_("Top Start");?></label></td>

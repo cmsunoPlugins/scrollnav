@@ -30,6 +30,7 @@ Use [Scrollnav](http://scrollnav.com/) in version 2.7 (JQuery is needed, more op
 
 ### Versions ###
 
+* 1.3.1 - 27/09/2022 : Responsive display
 * 1.3 - 27/08/2022 : 2 versions : Add version 3.0.2 (pure JS) and update version 2 (jQuery) to  2.7.3
 * 1.2.1 - 15/03/2017 : Fix issue when unknow lang
 * 1.2 - 14/10/2016 : Use PHP-Gettext in place of gettext

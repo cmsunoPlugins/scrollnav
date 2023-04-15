@@ -30,6 +30,7 @@ Use [Scrollnav](http://scrollnav.com/) in version 2.7 (JQuery is needed, more op
 
 ### Versions ###
 
+* 1.4.1 - 15/04/2023 : Add post ubusy
 * 1.4 - 23/11/2022 : Free jQuery (back office) - ES6
 * 1.3.1 - 27/09/2022 : Responsive display
 * 1.3 - 27/08/2022 : 2 versions : Add version 3.0.2 (pure JS) and update version 2 (jQuery) to  2.7.3

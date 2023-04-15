@@ -5,8 +5,7 @@ if(!isset($_POST['unox']) || $_POST['unox']!=$_SESSION['unox']) {sleep(2);exit;}
 <?php
 include('../../config.php');
 include('lang/lang.php');
-if(isset($_POST['ubusy'])) $busy = preg_replace("/[^A-Za-z0-9-_]/",'',$_POST['ubusy']);
-else { $q1 = file_get_contents('../../data/busy.json'); $a1 = json_decode($q1,true); $busy = $a1['nom']; }
+$busy = (isset($_POST['ubusy'])?preg_replace("/[^A-Za-z0-9-_]/",'',$_POST['ubusy']):'index');
 // ********************* actions *************************************************************************
 if(isset($_POST['action'])) {
 	switch($_POST['action']) {

@@ -6,6 +6,7 @@ function f_save_scrollnav(){
 	let x=new FormData();
 	x.set('action','save');
 	x.set('unox',Unox);
+	x.set('ubusy',Ubusy);
 	x.set('topi',document.getElementById("scroTopi").value);
 	x.set('topf',document.getElementById("scroTopf").value);
 	x.set('tit',document.getElementById("scroTit").value);
